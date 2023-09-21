@@ -7,7 +7,7 @@ export default function Page() {
   const router = useRouter();
   const [formValue, setFormValue] = useState({
     username: "",
-    password: "1234",
+    password: "",
   });
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
